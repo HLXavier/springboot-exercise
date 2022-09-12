@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 import com.pucrs.t1es2.dtos.requests.CreateCourseDto;
 import com.pucrs.t1es2.dtos.responses.FindCourseDto;
-import com.pucrs.t1es2.entity.Course;
+import com.pucrs.t1es2.entities.Course;
 
 @Component
 public class CourseMapper {

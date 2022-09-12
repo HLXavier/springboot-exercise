@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.pucrs.t1es2.dtos.requests.CreateCourseDto;
 import com.pucrs.t1es2.dtos.responses.FindStudentDto;
-import com.pucrs.t1es2.entity.Course;
+import com.pucrs.t1es2.entities.Course;
 import com.pucrs.t1es2.mappers.CourseMapper;
 import com.pucrs.t1es2.mappers.StudentMapper;
 import com.pucrs.t1es2.repositories.CourseRepository;

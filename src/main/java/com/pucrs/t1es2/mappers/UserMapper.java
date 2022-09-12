@@ -3,7 +3,7 @@ package com.pucrs.t1es2.mappers;
 import org.springframework.stereotype.Component;
 
 import com.pucrs.t1es2.dtos.requests.CreateUserDto;
-import com.pucrs.t1es2.entity.User;
+import com.pucrs.t1es2.entities.User;
 
 @Component
 public class UserMapper {

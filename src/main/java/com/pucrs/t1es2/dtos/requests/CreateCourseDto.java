@@ -1,6 +1,6 @@
 package com.pucrs.t1es2.dtos.requests;
 
-import com.pucrs.t1es2.entity.Schedule;
+import com.pucrs.t1es2.entities.Schedule;
 
 import lombok.Getter;
 

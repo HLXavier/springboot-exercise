@@ -1,4 +1,4 @@
-package com.pucrs.t1es2.entity;
+package com.pucrs.t1es2.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

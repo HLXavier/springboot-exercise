@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 import com.pucrs.t1es2.dtos.requests.CreateStudentDto;
 import com.pucrs.t1es2.dtos.responses.FindStudentDto;
-import com.pucrs.t1es2.entity.Student;
+import com.pucrs.t1es2.entities.Student;
 
 @Component
 public class StudentMapper {
