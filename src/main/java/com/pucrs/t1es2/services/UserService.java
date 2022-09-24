@@ -24,18 +24,18 @@ public class UserService {
     }
 
     public User findByEmail(String email) {
-        return repository.findByEmail(email);
+        return repository.findByEmail(email)
+            .orElseThrow(RuntimeException::new);
     }
 
     public String login(LoginDto dto) {
         User user = findByEmail(dto.getEmail());
 
-        if (user != null && user.getPassword().equals(dto.getPassword())) {
+        if (user.getPassword().equals(dto.getPassword())) {
             return authService.authorize();
         }
 
-        // TODO: Not found
-        return null;
+        throw new RuntimeException();
     }
 
 }
