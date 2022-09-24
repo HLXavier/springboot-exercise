@@ -24,8 +24,7 @@ public class UserService {
     }
 
     public User findByEmail(String email) {
-        return repository.findByEmail(email)
-            .orElseThrow(RuntimeException::new);
+        return repository.findByEmail(email);
     }
 
     public String login(LoginDto dto) {
